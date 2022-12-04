@@ -1,4 +1,3 @@
-<include a CircleCI status badge, here>
 
 ## Project Overview
 
@@ -33,8 +32,6 @@ python3 -m pip install --user virtualenv
 # Use a command similar to this one:
 python3 -m virtualenv --python=<path-to-Python3.7> .devops
 source .devops/bin/activate
-
-ssh -i "project4.pem" ubuntu@ec2-18-213-116-95.compute-1.amazonaws.com
 ```
 * Run `make install` to install the necessary dependencies
 
