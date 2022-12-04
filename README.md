@@ -111,6 +111,14 @@ brew install hadolint
 ```bash
 scoop install hadolint
 ```
+**Unbuntu**
+wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-Linux-x86_6 && chmod +x /bin/hadolint
+sudo usermod -a -G docker ${USER}
+su - ${USER}
+source ~/.devops/bin/activate
+source ~/.devops/bin/activate
+
+
 2. In your terminal, type: `make lint` to run lint checks on the project code. If you haven’t changed any code, all requirements should be satisfied, and you should see a printed statement that rates your code (and prints out any additional comments):
 
 ```bash
