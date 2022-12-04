@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="thailx1/flaskapp"
+dockerpath="thailx/flaskapp"
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
